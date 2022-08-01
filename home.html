@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Corona Virus Information</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {
+            display: flex;
+            padding: 10px 23px;
+            background-color: black;
+        }
+
+        .item {
+            padding: 3px 21px;
+            list-style: none;
+        }
+
+        .item a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            display: block;
+            font-size: 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .item a:hover {
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+        }
+
+        .container {
+            padding: 46px;
+            margin: 12px auto;
+            max-width: 161vh;
+            background-color: white;
+            border-radius: 12px;
+            /* height: 330vh; */
+        }
+
+        body {
+            background: url("./corona.jpeg")center center/cover;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 10px 0;
+        }
+
+        p,
+        ul>li {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h3 {
+            padding: 10px 0;
+        }
+
+        .question {
+            margin: 12px 0;
+        }
+
+        span {
+            color: rgb(49, 70, 146);
+        }
+
+        .far {
+            margin: 10px;
+        }
+
+        .fa-snowflake {
+            transition: all linear;
+            animation: rot 2s linear infinite;
+            color: var(--main-color);
+        }
+
+        #footer {
+            display: flex;
+            color: white;
+            background-color: black;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            /* font-size: 20px; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        @keyframes rot {
+            0% {
+                transform: rotate(0 deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .container {
+                padding: 26px;
+                margin: 8px 13px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            nav {
+                display: block;
+                align-items: center;
+            }
+            .item{
+                margin-left: 25%;
+            }
+            
+        }
+
+        @media (max-width: 460px) {
+            #footer {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#about">About</a></li>
+        <li class="item"><a href="#">MFW Website</a></li>
+        <li class="item"><a href="#">Hospitals</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+    </nav>
+    <div id="home" class="container">
+        <h2 class="head"><i class="far fa-snowflake"></i>Covid-19 stay Home Stay Safe <i class="far fa-snowflake"></i>
+        </h2>
+        <div class="box">
+            <h2>#India Fight Corona <span>Co-VID</span>-19</h2>
+            <p> At the beginning of the year, India seemed to be winning the battle against the pandemic with daily
+                cases as low as 9,000 in February, but it was only a brief triumphant euphoria. The devastating second
+                wave of the pandemic, caused by more virulent strains (both imported and indigenous), abandonment of
+                COVID-19 protocols by a large population, and ‘super-spreader’ mass gatherings, has stretched India’s
+                long-underfunded healthcare system. In a short span of eight weeks, India’s daily caseloads reached an
+                average of over 300,000 cases per day, with a new record of daily infections on 6 May, and with only a
+                little over 2% of the 1.3 billion population fully vaccinated, the danger of more numbers of people
+                getting infected and further possible COVID-19 waves looms large over India and its healthcare system.
+
+                With 8.5 hospital beds per 10,000 people and eight physicians per 10,000 patients, the country’s
+                healthcare sector is highly under-equipped to effectively respond to the existing and impending crisis.
+                Many incidences like Ashmitha’s will continue to echo across India if we do not address this emergency
+                on a war footing. Hospitals in India are currently running short of beds, oxygen and overstretched
+                healthcare staff. In the initial phase of the second wave, the cities were the worst affected, but now
+                the caseloads are quickly rising in rural India. This is a major cause of concern as the healthcare
+                infrastructure in the rural areas are inadequately equipped to deal with a pandemic of this scale,
+                pushing the rural population to seek medical attention in the cities, further exacerbating the
+                healthcare system in the urban areas.
+
+                Handling of the COVID-19 crisis has brought to the fore the gaps in the public health systems, which is
+                the result of the underfunding of the health, sector, particularly in rural India, by various
+                governments, both at the Centre and states. Although the Union Budget of 2021-2022 fiscal year saw a
+                137% increase from the previous year in the allocation for the health and well-being sector, including a
+                special provision for COVID-19 vaccinations, it is only a tiny fraction of the country’s overall Gross
+                Domestic Product.
+
+                The Indian constitution guarantees Right to Life for all citizens and this very right is threatened by
+                the crisis, particularly for the most vulnerable and marginalised sections of society. The government of
+                India has already called the civil society organisations to join hands in fighting this pandemic so that
+                this constitutional right is guarded.
+
+                This is a crucial moment for India. The approach should be tactical and strategic, as healthcare experts
+                have predicted a third wave of the pandemic in the country. While the immediate need is ramping up the
+                much-needed oxygen supply and the hospital beds in urban and rural India, there is a need to put in
+                place support systems for those vulnerable millions of children who could potentially be the victims of
+                the next wave, if not already. Non-governmental organisations could provide much-needed support to the
+                government and the people in fighting the pandemic and coping with the aftereffects in future.
+
+                The embedded presence of development organisations, such as World Vision India, whose grass-roots
+                presence being its core strength, can play a crucial role in bridging the gap between the state and
+                communities. They can provide the last-mile connectivity such as ensuring access to healthcare, aiding
+                medical facilities with beds and equipment, assisting beneficiaries’ access government schemes and
+                delivery of relief packages and creating awareness on COVID-19 vaccination.
+
+                The COVID-19 pandemic has exposed us to a health and humanitarian crisis where gaps in healthcare
+                systems, government policies and personal behaviour have pushed us to a point where our Right to Life
+                has been threatened. A collaborative effort between the government, civil society organisations and
+                individuals is the only way to overcome this unprecedented crisis, co-creating a future where every
+                child enjoys life in all its fullness.</p>
+        </div>
+        <div class="box">
+            <h2>#Stay Home-How to protect your self</h2>
+            <h3>$Dos</h3>
+            <p>
+            <ul>
+                <li>The very first thing which the experts are emphasizing upon is that Coronavirus can be killed with
+                    soap and water. Wash your hands for at least 20 seconds as frequently as required. For example
+                    before meals, after visiting the washroom, after touching any surface that you feel might be
+                    contaminated, etc</li>
+                <li>It is advised that a distance of at least 3 to 6 feet should be maintained between yourself and
+                    other people. This should be thoroughly practised in case you are required to step out of the house.
+                    Remember to avoid getting in the close proximity of a stranger.</li>
+                <li>The symptoms of COVID-19 are runny nose, sore throat, fever, and dry cough. If you or a family
+                    member is suffering from these symptoms for more than a day, it will be wise to get them checked
+                    from a certified medical professional.</li>
+                <li> One cannot know who is infected from the Coronavirus, thus it is best to stay at home and avoid the
+                    transmission. It is found that one person infected by COVID-19 can transmit it to multiple others.
+                    Imagine this as an uncontrolled chain reaction. Only you can break the chain by staying at home</li>
+            </ul>
+            </p>
+            <h3>$Don'ts</h3>
+            <p>
+            <ul>
+                <li>Even though a direct connection between outside food and Coronavirus has not been established, it is
+                    not wise to indulge in it. If you fall sick it will take a toll on your health. One cannot afford to
+                    fall sick at a time when the Coronavirus is already playing its part.</li>
+                <li>Eyes, nose and mouth are the entry points for the virus. It enters into your body when you touch
+                    your face with possible decontamination. Thus, avoid touching your face without thoroughly washing
+                    your hands. Always use a sanitizer if you need to step out of the house.</li>
+                <li>The authorities are doing their best to contain the spread of COVID-19. Following official advice is
+                    the only way in which we can ensure that we don’t get infected. Thus, try not to panic.</li>
+                <li>One should avoid touching surfaces like the railing of a staircase, elevator buttons, fruits or
+                    vegetables at the vendor’s stall, the counter of a shop, etc. with their bare hands. Since a lot of
+                    people will be in contact with such surfaces, they could get contaminated.</li>
+            </ul>
+            </p>
+        </div>
+        <div class="box">
+            <h2 id="about">#FAQS-Frequently asked questions</h2>
+            <div class="question">
+                <p>
+                    Q: What is the FDA doing to respond to the COVID-19 pandemic?
+                </p>
+                <p>
+                    A: The FDA, along with other federal, state, and local agencies and public health officials across
+                    the country and internationally, plays a critical role in protecting public health during the
+                    COVID-19 pandemic. FDA staff are working around the clock to support development of medical
+                    countermeasures and are providing regulatory advice, guidance, and technical assistance to advance
+                    the development and availability of vaccines, therapies, diagnostic tests and other medical devices
+                    for use diagnosing, treating, and preventing this novel virus. The FDA continues to monitor the
+                    human and animal food supply and take swift action on fraudulent COVID-19 products.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: What is an emergency use authorization and how is it being used to respond to COVID-19?
+                </p>
+                <p>
+                    A: An emergency use authorization (EUA) is a mechanism to facilitate the availability and use of
+                    medical countermeasures, including vaccines, tests, and medicines, during public health emergencies,
+                    such as the current COVID-19 pandemic. Under an EUA, the FDA may allow the use of unapproved medical
+                    products, or unapproved uses of approved medical products in an emergency to diagnose, treat, or
+                    prevent serious or life-threatening diseases or conditions when certain statutory criteria have been
+                    met, including that there are no adequate, approved, and available alternatives. Taking into
+                    consideration input from the FDA, manufacturers decide whether and when to submit an EUA request to
+                    the FDA. </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: How can I prevent COVID-19?
+                </p>
+                <p>
+                    A: The best way to prevent COVID-19 is to get vaccinated with an FDA-approved or FDA-authorized
+                    COVID-19 vaccine and stay up to date on your COVID-19 vaccines.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: What treatments are available in the U.S. to treat COVID-19?
+                </p>
+                <p>
+                    A: The FDA has approved and authorized treatments for COVID-19 for emergency use during this public
+                    health emergency. View the FDA’s Emergency Use Authorization (EUA) page to see all products
+                    authorized to treat COVID-19. Read our article: Know Your Treatment Options for COVID-19.
+                </p>
+            </div>
+            <div class="question">
+                <p>
+                    Q: Is hand sanitizer effective against COVID-19?
+                </p>
+                <p>
+                    A: One of the best ways to prevent the spread of infections and decrease the risk of getting sick is
+                    by washing your hands with plain soap and water, advises the CDC. Washing hands often with soap and
+                    water for at least 20 seconds is essential, especially after going to the bathroom; before eating;
+                    and after coughing, sneezing, or blowing one’s nose. If soap and water are not available, CDC
+                    recommends consumers use an alcohol-based hand sanitizer that contains at least 60% alcohol.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        Copyright 2022 ShubhamdanceAcademy.com| All rights reserved.
+    </footer>
+</body>
+
+</html>
